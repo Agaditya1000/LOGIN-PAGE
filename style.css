@@ -1,0 +1,113 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(adi3.webp);
+    background-size: contain;
+    background-size: 100VW;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    border: 5px solid black;
+    border-color:;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 150px;
+    border-style: double;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(165, 42, 42, 0.79);
+
+}
+
+.input1{
+      color: bl;
+}
+
+button{
+    width: 80px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: aqua;
+    
+
+}
+
+
+.social{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button:hover{
+    border-radius: 2px;
+    transition: ease-in 0.2s;
+}
+
+button:active{
+    transform: scale(0.90);
+}
+
+.fa-linkedin{
+    font-size: 20px;
+    color: #0077b5;
+}
+
+.fa-linkedin:active{
+    transform: scale(0.90);
+}
+
+.fa-github{
+    font-size: 20px;
+    color:#041020;
+}
+
+.fa-github:active{
+    transform: scale(0.90);
+}
+
+.fa-square-instagram{
+    font-size: 20px;
+    background: #f09433;
+    color: white;
+background: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', endcolorstr='#bc1888',GradientType=1);
+ text-decoration: none;
+}
+
+.fa-square-instagram:active{
+    transform: scale(0.90);
+}
+
+.fa-envelope{
+    font-size: 20px;
+    color:#c71610;
+}
+
+.fa-envelope:active{
+    transform: scale(0.90);
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.fa-face-smile{
+    font-size: 40px;
+    margin-bottom: -20px;
+    color:black;
+    background-color: #ffcc4d;
+    border-radius: 50px;
+}

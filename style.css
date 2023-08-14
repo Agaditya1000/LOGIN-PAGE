@@ -8,6 +8,7 @@ body{
     background-image:url(adi3.webp);
     background-size: contain;
     background-size: 100VW;
+    flex-direction: column;
 }
 
 form{
@@ -76,7 +77,7 @@ button:active{
 }
 
 .fa-square-instagram{
-    font-size: 20px;
+    font-size: 18px;
     background: #f09433;
     color: white;
 background: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
@@ -99,8 +100,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', end
     transform: scale(0.90);
 }
 
+.fa-whatsapp{
+    font-size: 20px;
+    color:#075e54;
+}
+
 h3{
     font-family: 'Pacifico', cursive;
+}
+h3:hover{
+
+    transition: ease-in 0.2s;
+}
+
+h3:active{
+    transform: scale(0.90);
 }
 
 
@@ -111,3 +125,36 @@ h3{
     background-color: #ffcc4d;
     border-radius: 50px;
 }
+.fa-face-smile:hover{
+    border-radius: 50px;
+    transition: ease-in 0.2s;
+}
+
+.fa-face-smile:active{
+    transform: scale(0.90);
+}
+
+/* h1 style*/
+h1{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+}
+
+
+h1:hover{
+
+    transition: ease-in 0.2s;
+}
+
+h1:active{
+    transform: scale(0.90);
+}
+
+
+h2{
+    color: aliceblue;
+    position: absolute;
+    bottom: 50px;
+}
+

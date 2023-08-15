@@ -49,6 +49,7 @@ button{
     margin-top: 20px;
 }
 
+
 button:hover{
     border-radius: 2px;
     transition: ease-in 0.2s;
@@ -71,6 +72,8 @@ button:active{
     font-size: 20px;
     color:#041020;
 }
+
+
 
 .fa-github:active{
     transform: scale(0.90);
@@ -118,7 +121,23 @@ h3:active{
 }
 
 
-.fa-face-smile{
+img{
+    height: 8vh;
+    width: 5vw;
+    margin-bottom: -15px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+img:hover{
+    transition: ease-in 0.2s;
+}
+img:active{
+    transform: scale(0.90);
+}
+
+
+
+/*.fa-face-smile{
     font-size: 40px;
     margin-bottom: -20px;
     color:black;
@@ -132,7 +151,7 @@ h3:active{
 
 .fa-face-smile:active{
     transform: scale(0.90);
-}
+}*/
 
 /* h1 style*/
 h1{
@@ -156,5 +175,10 @@ h2{
     color: aliceblue;
     position: absolute;
     bottom: 50px;
+}
+
+.fa-square-twitter{
+    font-size: 20px;
+    color: #1DA1F2;
 }
 
